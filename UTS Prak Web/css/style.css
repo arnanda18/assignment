@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h2{
+	text-align: center;
+	padding-top: 40px;
+	color: #074B7C;
+	
+}
+
+tr{
+	background-color:#f2f6ff ;
+
+}
+td{
+	border: 1px solid black;
+	font-weight: 20;
+	}
+
+.pass_foto_bio{
+	width: 100;
+    height: 200;
+}
+
+table .img-bio{
+	border: 2px solid white;
+}
