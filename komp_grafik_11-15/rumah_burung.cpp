@@ -70,7 +70,7 @@ void reshape(int w, int h)
     glViewport(0,0,(GLsizei)w,(GLsizei)h);
     glMatrixMode(GL_PROJECTION);
     glFrustum(-0.5*(GLfloat)w/h,0.5*(GLfloat)w/h,-0.5,0.5,1,50);
-    gluLookAt(0,-0.5,3,0,0,-100,0,1,0);
+    gluLookAt(0,-0.3,3,0,0,-100,0,1,0);
 
 }
 
@@ -86,7 +86,7 @@ int main(int iArgc, char** cppArgv)
     glutInit(&iArgc, cppArgv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(460, 320);
-    glutCreateWindow("Lingkaran 3D Arnanda N");
+    glutCreateWindow("Rumah Burung 3D Arnanda");
     Initialize();
     glutDisplayFunc(Draw);
     glutReshapeFunc(reshape);
